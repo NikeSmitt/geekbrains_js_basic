@@ -1,0 +1,94 @@
+
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.basket {
+    margin: 20px;
+    display: inline-flex;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+}
+
+.card {
+    width: 150px;
+    border: 1px solid rgb(224, 218, 218);
+    background-color: beige;
+    border-radius: 20px;
+}
+
+
+.card_info {
+    margin: 20px;
+}
+
+.buy_button {
+    margin-bottom: 10px;
+}
+
+.basket_info {
+    margin: 20px;
+    text-align: left;
+    font-size: 30px;
+}
+
+
+.imageModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.close {
+    font-size:  30px;
+    font-weight:  bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #a6a2a7;
+    margin: auto;
+    padding: 0;
+    border: 5px solid #ccc;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image {
+    max-width: 80%;
+    max-height: 300px;
+}
+
+.nextPhotoButton {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+}
